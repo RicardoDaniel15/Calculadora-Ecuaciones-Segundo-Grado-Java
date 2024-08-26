@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerHome">
+   <children>
+      <TextField id="txtResultado" fx:id="txtResultado" editable="false" layoutX="32.0" layoutY="40.0" prefHeight="86.0" prefWidth="535.0" promptText="Digite la ecuación a resolver de la forma ax^2+bx+c" text="Digite la ecuación a resolver de la forma ax^2+bx+c" />
+      <Button layoutX="123.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonClick1" prefHeight="47.0" prefWidth="82.0" text="1" />
+      <Button layoutX="206.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonClick2" prefHeight="47.0" prefWidth="82.0" text="2" />
+      <Button layoutX="288.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonClick3" prefHeight="47.0" prefWidth="82.0" text="3" />
+      <Button layoutX="123.0" layoutY="189.0" mnemonicParsing="false" onAction="#buttonClick4" prefHeight="47.0" prefWidth="82.0" text="4" />
+      <Button layoutX="206.0" layoutY="190.0" mnemonicParsing="false" onAction="#buttonClick5" prefHeight="47.0" prefWidth="82.0" text="5" />
+      <Button layoutX="288.0" layoutY="190.0" mnemonicParsing="false" onAction="#buttonClick6" prefHeight="47.0" prefWidth="82.0" text="6" />
+      <Button layoutX="123.0" layoutY="237.0" mnemonicParsing="false" onAction="#buttonClick7" prefHeight="47.0" prefWidth="82.0" text="7" />
+      <Button layoutX="206.0" layoutY="237.0" mnemonicParsing="false" onAction="#buttonClick8" prefHeight="47.0" prefWidth="82.0" text="8" />
+      <Button layoutX="288.0" layoutY="237.0" mnemonicParsing="false" onAction="#buttonClick9" prefHeight="47.0" prefWidth="82.0" text="9" />
+      <Button layoutX="165.0" layoutY="309.0" mnemonicParsing="false" onAction="#buttonClickBX" prefHeight="47.0" prefWidth="82.0" text="X" />
+      <Button layoutX="247.0" layoutY="309.0" mnemonicParsing="false" onAction="#buttonClicKAX2" prefHeight="47.0" prefWidth="82.0" text="X^2" />
+      <Button layoutX="418.0" layoutY="166.0" mnemonicParsing="false" onAction="#AddOperation" prefHeight="47.0" prefWidth="82.0" text="+" />
+      <Button layoutX="418.0" layoutY="213.0" mnemonicParsing="false" onAction="#MinusOperation" prefHeight="47.0" prefWidth="82.0" text="-" />
+      <Button layoutX="407.0" layoutY="284.0" mnemonicParsing="false" onAction="#showResult" prefHeight="27.0" prefWidth="108.0" style="-fx-background-color: #b37772;" text="RESOLVER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="531.0" layoutY="177.0" mnemonicParsing="false" onAction="#eliminarCoeficiente" style="-fx-background-color: #b37772;" text="DEL" />
+      <Button layoutX="533.0" layoutY="143.0" mnemonicParsing="false" onAction="#limpiarDisplay" style="-fx-background-color: #b37772;" text="AC" />
+   </children>
+</AnchorPane>
